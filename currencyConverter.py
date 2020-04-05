@@ -38,6 +38,7 @@ class CurrencyConverter:
         content.rowconfigure(2, pad = 30)
         content.rowconfigure(3, pad = 10)
         content.rowconfigure(4, pad = 30)
+        
 
         header = Label(content, text = "Exchange rate at:")
         header.grid(row = 0, column = 0)
